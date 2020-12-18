@@ -32,7 +32,7 @@ jobs:
     - name: deploy to portainer
       uses: LGinC/portainer-stack-deploy@master
       with: 
-        serverurl: http://39.99.246.2:9000
+        serverurl: https://portainer.destinycore.club
         username: ${{ secrets.PORTAINER_USERNAME }}
         password: ${{ secrets.PORTAINER_PASSWORD }}
         endpointId: 1
